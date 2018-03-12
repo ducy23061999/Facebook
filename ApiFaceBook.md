@@ -3,7 +3,7 @@ CMT ảnh
 https://graph.fb.me/{{idstatus}}/comments?access_token={{token}}&message={{noi dung}}&&attachment_url={{link_anh}}&method=post
 ```
 
-block user from gr
+delete user from gr
 ```
 https://graph.facebook.com/378443292610123/members/100014067062024?method=delete&access_token={{token}}
 ```
