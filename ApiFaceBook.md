@@ -20,3 +20,16 @@ làm die token
 ```
 https://api.facebook.com/restserver.php?method=auth.expireSession&access_token={{token}}
 ```
+get token full quyền
+
+```
+https://api.facebook.com/restserver.php?api_key=3e7c78e35a76a9299309885393b02d97&email={{email_facebook}}&format=JSON&generate_machine_id=1&generate_session_cookies=1&locale=vi_vn&method=auth.login&password={{facebook_password}}&return_ssl_resources=0&v=2.1&sig=409bf3f7f976197e0c75b4f1fd8af210
+```
+tính số lượt LIKE, LOVE, HAHA, SAD, ANGRY
+```
+https://graph.facebook.com/v2.11/{ID_bài_viết}/reactions?pretty=0&type{LIKE}&limit=10000000000&access_token={Access_Token};
+```
+tính số lượt comment
+```
+https://graph.facebook.com/v2.11/{ID_bài_viết}?fields=comments.limit(0).summary(1)&access_token={Access_Token}
+```
