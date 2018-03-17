@@ -27,7 +27,7 @@ https://api.facebook.com/restserver.php?api_key=3e7c78e35a76a9299309885393b02d97
 ```
 tính số lượt LIKE, LOVE, HAHA, SAD, ANGRY
 ```
-https://graph.facebook.com/v2.11/{ID_bài_viết}/reactions?pretty=0&type{LIKE}&limit=10000000000&access_token={Access_Token};
+https://graph.facebook.com/v2.11/{ID_bài_viết}/reactions?pretty=0&type={LIKE}&limit=10000000000&access_token={Access_Token};
 ```
 tính số lượt comment
 ```
